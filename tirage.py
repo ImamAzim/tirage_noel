@@ -47,8 +47,9 @@ def main():
         infra_gifts += 1
     if infra_gifts:
         print(f'il y a {infra_gifts} cadeau intra-foyers. refaite un tirage si nécessaire')
-    print(results)
-
+    results.append(results[0])
+    for donneur, receveur in zip(results[:-1], results[1:]):
+        print(f'{donneur} offre un cadeau à {receveur}')
 
 
 if __name__ == '__main__':
