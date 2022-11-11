@@ -27,6 +27,7 @@ def main():
 
     last_foyer = None
     infra_gifts = 0
+    first_foyer = None
     while people:
         people_to_draw = people.copy()
         if last_foyer in people_to_draw:
@@ -40,6 +41,10 @@ def main():
             people.pop(next_foyer)
         results.append(next_person)
         last_foyer = next_foyer
+        if first_foyer is None:
+            first_foyer = next_foyer
+    if first_foyer == last_foyer:
+        infra_gifts += 1
     if infra_gifts:
         print(f'il y a {infra_gifts} cadeau intra-foyers. refaite un tirage si nécessaire')
     print(results)
