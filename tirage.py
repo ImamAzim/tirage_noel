@@ -1,9 +1,9 @@
 import random
 
 
-INTERACTIVE_MODE = False
+INTERACTIVE_MODE = True
 DEFAULT_PEOPLE = dict(
-        geneve={'alim', 'maman'},
+        geneve={'alim', 'eva'},
         st_blaise={'fabienne', 'imam'},
         haag={'omar', 'nicole'}
         )
