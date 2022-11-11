@@ -2,14 +2,16 @@ Tirage au sort the noel
 ========================
 
 
-un script pour faire un tirage au sort de cadeau de noel. une personne offira un cadeau à une seul autre personne. chaque personne fait partie d'un foyer.
-règles:
+un script pour faire un tirage au sort de cadeau de noel. Une personne offira un cadeau à une seul autre personne. Chaque personne fait partie d'un foyer.
 
-#. il n'y a qu'une seul boucle fermé. (en suivant qui offre à qui, on finit par la première personne)
-#. pas de cadeau intra-foyer si possible.
+Règles:
 
-la 2e règles n'est pas forcément optimisé: il y aura x tirages au sort, et on choisit un tirage qui respecte au mieux la règle.
+#. Il n'y a qu'une seule boucle fermée (en suivant qui offre à qui, on finit par la première personne).
+#. Pas de cadeau intra-foyer, si possible.
+
+La 2e règle n'est pas forcément optimisée: il y aura x tirages au sort, et on choisit un tirage qui respecte au mieux la règle.
 
 utilisation
 ===========
-executer le script avec python pour lancer l'interface en console
+
+Exécuter le script avec python pour lancer l'interface en console
