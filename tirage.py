@@ -1,13 +1,17 @@
 import random
 
 
-TEST_MODE = True
-
+INTERACTIVE_MODE = False
+DEFAULT_PEOPLE = dict(
+        geneve={'alim', 'maman'},
+        st_blaise={'fabienne', 'imam'},
+        haag={'omar', 'nicole'}
+        )
 
 def main():
 
     print('tirage au sort de noel')
-    if not TEST_MODE:
+    if INTERACTIVE_MODE:
         answer = input('entrer les noms de tous les foyers, séparés par des espace:\n')
         foyers = set(answer.split())
 
@@ -17,11 +21,7 @@ def main():
             personnes = set(answer.split())
             people[foyer] = personnes
     else:
-        people = dict(
-                geneve={'alim', 'maman'},
-                st_blaise={'fabienne', 'imam'},
-                haag={'omar', 'nicole'}
-                )
+        people = DEFAULT_PEOPLE
 
     results = list()
 
