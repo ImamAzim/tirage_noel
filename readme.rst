@@ -14,4 +14,4 @@ La 2e règle n'est pas forcément optimisée: il faudra recommencer le tirage si
 utilisation
 ===========
 
-Exécuter le script avec python pour lancer l'interface en console. Si on ne veut pas utiliser le mode interactif, changer la variable INTERACTIVE_MODE en False et changer le dictionnaire DEFAULT_PEOPLE selon le besoin.
+Exécuter le script tirage.py avec python pour lancer l'interface en console. Si on ne veut pas utiliser le mode interactif, changer la variable INTERACTIVE_MODE en False et changer le dictionnaire DEFAULT_PEOPLE selon le besoin.
