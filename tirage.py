@@ -5,7 +5,7 @@ INTERACTIVE_MODE = True
 DEFAULT_PEOPLE = dict(
         geneve={'alim', 'eva'},
         st_blaise={'fabienne', 'imam'},
-        haag={'omar', 'nicole'}
+        haag={'omar'}
         )
 
 def main():
